@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "693262263261",
+    "project_id": "kasku-68fe3",
+    "storage_bucket": "kasku-68fe3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693262263261:android:8662423e3fb5894c07cc34",
+        "android_client_info": {
+          "package_name": "com.example.kasku"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA7yIanfPZdORetaAtNmzwuAdm-vZAjZM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
