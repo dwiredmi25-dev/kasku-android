@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kasku</string>
+    <string name="tagline">Catat uang, jaga kantong</string>
+
+    <!-- Autentikasi -->
+    <string name="login">Masuk</string>
+    <string name="register">Daftar</string>
+    <string name="create_account">Buat Akun</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Konfirmasi password</string>
+    <string name="no_account">Belum punya akun? Daftar</string>
+    <string name="have_account">Sudah punya akun? Masuk</string>
+    <string name="err_email_empty">Email tidak boleh kosong</string>
+    <string name="err_email_invalid">Format email tidak valid</string>
+    <string name="err_password_short">Password minimal 6 karakter</string>
+    <string name="err_password_mismatch">Konfirmasi password tidak cocok</string>
+    <string name="err_credentials">Email atau password salah</string>
+    <string name="err_email_taken">Email sudah terdaftar</string>
+    <string name="err_weak_password">Password terlalu lemah</string>
+    <string name="err_no_network">Tidak ada koneksi internet</string>
+    <string name="err_generic">Terjadi kesalahan. Coba lagi.</string>
+
+    <!-- Navigasi -->
+    <string name="nav_transactions">Transaksi</string>
+    <string name="nav_summary">Ringkasan</string>
+    <string name="nav_profile">Profil</string>
+
+    <!-- Daftar transaksi -->
+    <string name="balance">Saldo</string>
+    <string name="search_hint">Cari judul atau catatan</string>
+    <string name="filter_all">Semua</string>
+    <string name="income">Pemasukan</string>
+    <string name="expense">Pengeluaran</string>
+    <string name="category">Kategori</string>
+    <string name="month">Bulan</string>
+    <string name="all_categories">Semua kategori</string>
+    <string name="all_months">Semua bulan</string>
+    <string name="empty_no_data">Belum ada transaksi.\nTap + untuk menambah.</string>
+    <string name="empty_not_found">Transaksi tidak ditemukan</string>
+    <string name="load_error">Gagal memuat data</string>
+    <string name="retry">Coba lagi</string>
+    <string name="add_desc">Tambah transaksi</string>
+
+    <!-- Form dan detail -->
+    <string name="add_transaction">Tambah Transaksi</string>
+    <string name="edit_transaction">Edit Transaksi</string>
+    <string name="detail_transaction">Detail Transaksi</string>
+    <string name="title_label">Judul</string>
+    <string name="amount_label">Nominal (Rp)</string>
+    <string name="type_label">Tipe</string>
+    <string name="date_label">Tanggal</string>
+    <string name="note_label">Catatan (opsional)</string>
+    <string name="save">Simpan</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Hapus</string>
+    <string name="cancel">Batal</string>
+    <string name="err_title_empty">Judul tidak boleh kosong</string>
+    <string name="err_amount_invalid">Nominal harus angka lebih dari 0</string>
+    <string name="err_category_empty">Pilih kategori</string>
+    <string name="delete_title">Hapus transaksi?</string>
+    <string name="delete_message">Transaksi yang dihapus tidak dapat dikembalikan.</string>
+    <string name="saved">Transaksi disimpan</string>
+    <string name="deleted">Transaksi dihapus</string>
+
+    <!-- Ringkasan -->
+    <string name="total_income">Total Pemasukan</string>
+    <string name="total_expense">Total Pengeluaran</string>
+    <string name="monthly">Per Bulan</string>
+    <string name="chart_title">6 Bulan Terakhir</string>
+    <string name="legend_income">● Pemasukan</string>
+    <string name="legend_expense">● Pengeluaran</string>
+    <string name="summary_empty">Belum ada data</string>
+    <string name="summary_line">%1$s\nMasuk %2$s  |  Keluar %3$s</string>
+
+    <!-- Profil dan pengingat -->
+    <string name="reminder_switch">Pengingat harian (20.00)</string>
+    <string name="dark_mode">Mode gelap</string>
+    <string name="logout">Keluar</string>
+    <string name="notif_denied">Izin notifikasi ditolak. Pengingat tidak aktif.</string>
+    <string name="reminder_title">Waktunya mencatat!</string>
+    <string name="reminder_text">Jangan lupa catat transaksi hari ini di Kasku.</string>
+    <string name="channel_name">Pengingat harian</string>
+
+    <string-array name="months">
+        <item>Januari</item>
+        <item>Februari</item>
+        <item>Maret</item>
+        <item>April</item>
+        <item>Mei</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>Agustus</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>Desember</item>
+    </string-array>
+</resources>

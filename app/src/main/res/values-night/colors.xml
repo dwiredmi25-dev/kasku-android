@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#7FD6BE</color>
+    <color name="on_primary">#00382D</color>
+    <color name="income">#81C784</color>
+    <color name="expense">#EF9A9A</color>
+</resources>
