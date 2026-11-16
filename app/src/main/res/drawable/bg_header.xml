@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Gradasi dasar -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="315"
+                android:endColor="#14857A"
+                android:startColor="#051F24"
+                android:type="linear" />
+            <corners
+                android:bottomLeftRadius="40dp"
+                android:bottomRightRadius="40dp" />
+        </shape>
+    </item>
+
+    <!-- Lingkaran besar transparan (kanan atas) -->
+    <item
+        android:width="260dp"
+        android:height="260dp"
+        android:gravity="top|end"
+        android:right="-90dp"
+        android:top="-70dp">
+        <shape android:shape="oval">
+            <solid android:color="#14FFFFFF" />
+        </shape>
+    </item>
+
+    <!-- Cincin 1 -->
+    <item
+        android:width="180dp"
+        android:height="180dp"
+        android:gravity="top|end"
+        android:right="-50dp"
+        android:top="-30dp">
+        <shape android:shape="oval">
+            <stroke
+                android:width="1.5dp"
+                android:color="#33FFFFFF" />
+        </shape>
+    </item>
+
+    <!-- Cincin 2 -->
+    <item
+        android:width="110dp"
+        android:height="110dp"
+        android:gravity="top|end"
+        android:right="-15dp"
+        android:top="5dp">
+        <shape android:shape="oval">
+            <stroke
+                android:width="1.5dp"
+                android:color="#40FFFFFF" />
+        </shape>
+    </item>
+
+    <!-- Lingkaran aksen (kiri bawah) -->
+    <item
+        android:width="170dp"
+        android:height="170dp"
+        android:bottom="-70dp"
+        android:gravity="bottom|start"
+        android:left="-60dp">
+        <shape android:shape="oval">
+            <solid android:color="#1A5EEAD4" />
+        </shape>
+    </item>
+</layer-list>

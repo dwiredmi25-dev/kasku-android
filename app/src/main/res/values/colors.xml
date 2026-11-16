@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="primary">#1F6F5C</color>
+    <color name="primary">#0F766E</color>
     <color name="white">#FFFFFFFF</color>
     <color name="on_primary">#FFFFFFFF</color>
-    <color name="income">#2E7D32</color>
-    <color name="expense">#C62828</color>
+    <color name="income">#15803D</color>
+    <color name="expense">#DC2626</color>
+    <color name="bg_screen">#F4F7F9</color>
+    <color name="card_bg">#FFFFFFFF</color>
+    <color name="card_stroke">#E3E8EC</color>
+    <color name="gradient_start">#0B3B4C</color>
+    <color name="gradient_end">#14907E</color>
+    <color name="on_gradient">#FFFFFFFF</color>
+    <color name="on_gradient_soft">#B3FFFFFF</color>
 </resources>

@@ -2,6 +2,8 @@
 <resources>
     <string name="app_name">Kasku</string>
     <string name="tagline">Catat uang, jaga kantong</string>
+    <string name="welcome_back">Selamat Datang</string>
+    <string name="login_subtitle">Masuk untuk melanjutkan</string>
 
     <!-- Autentikasi -->
     <string name="login">Masuk</string>
