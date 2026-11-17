@@ -51,6 +51,8 @@ class TransactionsFragment : Fragment() {
             val income = list.filter { it.type == Transaction.TYPE_INCOME }.sumOf { it.amount }
             val expense = list.filter { it.type == Transaction.TYPE_EXPENSE }.sumOf { it.amount }
             b.tvBalance.text = Format.rupiah(income - expense)
+            b.tvIncome.text = Format.rupiah(income)
+            b.tvExpense.text = Format.rupiah(expense)
         }
 
         vm.state.observe(viewLifecycleOwner) { state ->

@@ -37,7 +37,7 @@
     <string name="expense">Pengeluaran</string>
     <string name="category">Kategori</string>
     <string name="month">Bulan</string>
-    <string name="all_categories">Semua kategori</string>
+    <string name="all_categories">Semua</string>
     <string name="all_months">Semua bulan</string>
     <string name="empty_no_data">Belum ada transaksi.\nTap + untuk menambah.</string>
     <string name="empty_not_found">Transaksi tidak ditemukan</string>

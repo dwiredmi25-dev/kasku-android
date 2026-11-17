@@ -11,6 +11,8 @@ import com.example.kasku.data.Transaction
 import com.example.kasku.data.isIncome
 import com.example.kasku.databinding.ItemTransactionBinding
 import com.example.kasku.util.Format
+import android.content.res.ColorStateList
+import com.example.kasku.util.CategoryIcons
 
 class TransactionAdapter(
     private val onClick: (Transaction) -> Unit
@@ -24,16 +26,23 @@ class TransactionAdapter(
     override fun onBindViewHolder(holder: VH, position: Int) {
         val t = getItem(position)
         val ctx = holder.b.root.context
+        val colorRes = if (t.isIncome) R.color.income else R.color.expense
+
         holder.b.tvTitle.text = t.title
         holder.b.tvMeta.text = "${t.category} • ${Format.date(t.date)}"
+
         val sign = if (t.isIncome) "+ " else "- "
         holder.b.tvAmount.text = sign + Format.rupiah(t.amount)
-        holder.b.tvAmount.setTextColor(
-            ContextCompat.getColor(ctx, if (t.isIncome) R.color.income else R.color.expense)
-        )
+        holder.b.tvAmount.setTextColor(ContextCompat.getColor(ctx, colorRes))
+
+        // Ikon kategori
+        val style = CategoryIcons.of(t.category)
+        holder.b.ivIcon.setImageResource(style.icon)
+        holder.b.ivIcon.imageTintList = ColorStateList.valueOf(style.fg)
+        holder.b.ivIcon.backgroundTintList = ColorStateList.valueOf(style.bg)
+
         holder.b.root.setOnClickListener { onClick(t) }
     }
-
     private object Diff : DiffUtil.ItemCallback<Transaction>() {
         override fun areItemsTheSame(a: Transaction, b: Transaction) = a.id == b.id
         override fun areContentsTheSame(a: Transaction, b: Transaction) = a == b
